@@ -27,9 +27,14 @@ html {
 
 body {
   background: var(--background);
+
   color: var(--text);
 
-  font-family: var(--font);
+  font-family: var(--font-family);
+
+  overflow-x: hidden;
+
+  position: relative;
 }
 
 .container {
@@ -670,4 +675,49 @@ body {
   .container {
     padding: 0 1.2rem;
   }
+}
+
+body::before {
+  content: '';
+
+  position: fixed;
+
+  top: -250px;
+
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  width: 700px;
+
+  height: 700px;
+
+  background: radial-gradient(circle, rgba(59, 130, 246, 0.18), transparent 70%);
+
+  filter: blur(90px);
+
+  pointer-events: none;
+
+  z-index: -1;
+}
+body::after {
+  content: '';
+
+  position: fixed;
+
+  right: -250px;
+
+  bottom: -250px;
+
+  width: 600px;
+
+  height: 600px;
+
+  background: radial-gradient(circle, rgba(99, 102, 241, 0.12), transparent 70%);
+
+  filter: blur(120px);
+
+  pointer-events: none;
+
+  z-index: -1;
 }
