@@ -523,3 +523,53 @@ body {
 .nav-menu a:hover {
   color: var(--primary);
 }
+
+/* ===========================
+   FOOTER
+=========================== */
+
+.footer {
+  padding: 4rem 0;
+
+  border-top: 1px solid var(--border);
+
+  text-align: center;
+}
+
+.footer h2 {
+  margin-bottom: 1rem;
+}
+
+.footer p {
+  color: var(--text-secondary);
+
+  margin-bottom: 2rem;
+}
+
+.footer-links {
+  display: flex;
+
+  justify-content: center;
+
+  gap: 2rem;
+
+  margin-bottom: 2rem;
+}
+
+.footer-links a {
+  text-decoration: none;
+
+  color: var(--primary);
+
+  transition: 0.3s;
+}
+
+.footer-links a:hover {
+  color: white;
+}
+
+.footer span {
+  color: var(--text-secondary);
+
+  font-size: 0.9rem;
+}
