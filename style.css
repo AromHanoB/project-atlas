@@ -373,3 +373,96 @@ body {
 .skill-card li:last-child {
   border: none;
 }
+/* ===========================
+   CONTACT
+=========================== */
+
+.contact{
+
+    padding:8rem 0;
+
+}
+
+.contact-box{
+
+    background:var(--surface);
+
+    border:1px solid var(--border);
+
+    border-radius:24px;
+
+    padding:4rem;
+
+    text-align:center;
+
+}
+
+.contact-box h2{
+
+    font-size:2.8rem;
+
+    margin:1rem 0;
+
+}
+
+.contact-description{
+
+    color:var(--text-secondary);
+
+    max-width:700px;
+
+    margin:0 auto 3rem;
+
+    line-height:1.8;
+
+}
+
+.contact-buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+    gap:1rem;
+
+    margin-bottom:3rem;
+
+}
+
+.contact-buttons a{
+
+    display:inline-block;
+
+    padding:1rem 2rem;
+
+    border:1px solid var(--primary);
+
+    border-radius:12px;
+
+    color:var(--primary);
+
+    text-decoration:none;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.contact-buttons a:hover{
+
+    background:var(--primary);
+
+    color:white;
+
+}
+
+.contact-email{
+
+    color:var(--text-secondary);
+
+    font-size:1.1rem;
+
+}
