@@ -301,3 +301,75 @@ body {
 .project-links a:hover {
   text-decoration: underline;
 }
+
+/* ===========================
+   SKILLS
+=========================== */
+
+.skills {
+  padding: 8rem 0;
+}
+
+.skills h2 {
+  font-size: 2.5rem;
+
+  margin: 1rem 0;
+}
+
+.skills-description {
+  max-width: 700px;
+
+  color: var(--text-secondary);
+
+  margin-bottom: 4rem;
+
+  line-height: 1.8;
+}
+
+.skills-grid {
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+  gap: 2rem;
+}
+
+.skill-card {
+  background: var(--surface);
+
+  border: 1px solid var(--border);
+
+  border-radius: 20px;
+
+  padding: 2rem;
+
+  transition: 0.3s;
+}
+
+.skill-card:hover {
+  transform: translateY(-8px);
+
+  border-color: var(--primary);
+}
+
+.skill-card h3 {
+  color: var(--primary);
+
+  margin-bottom: 2rem;
+}
+
+.skill-card ul {
+  list-style: none;
+}
+
+.skill-card li {
+  padding: 1rem 0;
+
+  border-bottom: 1px solid var(--border);
+
+  color: var(--text-secondary);
+}
+
+.skill-card li:last-child {
+  border: none;
+}
