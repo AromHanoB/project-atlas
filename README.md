@@ -1,12 +1,12 @@
-# 🚀 Developer Brand
+# 🚀 PROJECT ATLAS
 
-> Transformando um currículo em uma identidade profissional.
+> Construindo uma identidade profissional, um commit de cada vez..
 
 ---
 
 ## 📖 Sobre
 
-Developer Brand é um projeto criado para construir uma presença profissional completa para a área de desenvolvimento.
+Developer Atlas é um projeto criado para construir uma presença profissional completa para a área de desenvolvimento.
 
 O objetivo não é apenas criar um currículo, mas desenvolver um ecossistema composto por:
 
@@ -44,7 +44,7 @@ Todo o desenvolvimento será documentado desde a primeira linha de código.
 ## 📂 Estrutura
 
 ```text
-developer-brand/
+developer-atlas/
 
 ├── assets/
 ├── docs/
