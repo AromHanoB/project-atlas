@@ -1,37 +1,12 @@
-# 🚀 PROJECT ATLAS
+# 🚀 Project Atlas
 
-> Construindo uma identidade profissional, um commit de cada vez..
+Meu portfólio profissional desenvolvido para documentar minha evolução como Desenvolvedor Full Stack.
 
----
-
-## 📖 Sobre
-
-Developer Atlas é um projeto criado para construir uma presença profissional completa para a área de desenvolvimento.
-
-O objetivo não é apenas criar um currículo, mas desenvolver um ecossistema composto por:
-
-- Currículo
-- Portfólio
-- GitHub
-- LinkedIn
-- Documentação
-- Projetos
-
-Todo o desenvolvimento será documentado desde a primeira linha de código.
+O objetivo deste projeto é apresentar meus trabalhos, habilidades e evolução técnica através de uma interface moderna, responsiva e construída com boas práticas de desenvolvimento web.
 
 ---
 
-## 🎯 Objetivos
-
-- Criar um currículo moderno
-- Desenvolver um portfólio profissional
-- Aprimorar conhecimentos em HTML, CSS e JavaScript
-- Aplicar boas práticas de Git
-- Publicar o projeto no GitHub Pages
-
----
-
-## 🛠 Tecnologias
+## ✨ Tecnologias
 
 - HTML5
 - CSS3
@@ -41,13 +16,21 @@ Todo o desenvolvimento será documentado desde a primeira linha de código.
 
 ---
 
-## 📂 Estrutura
+## 📸 Preview
+
+![Project Atlas](./assets/images/projects/atlas.webp)
+
+---
+
+## 📁 Estrutura
 
 ```text
-developer-atlas/
-
+project-atlas/
+│
 ├── assets/
-├── docs/
+│   ├── icons/
+│   └── images/
+│
 ├── index.html
 ├── style.css
 ├── script.js
@@ -56,12 +39,53 @@ developer-atlas/
 
 ---
 
-## 📅 Status
+## 🚀 Como executar
 
-🟢 Em desenvolvimento
+Clone o repositório:
+
+```bash
+git clone https://github.com/SEU-USUARIO/project-atlas.git
+```
+
+Abra o arquivo:
+
+```
+index.html
+```
+
+Ou utilize a extensão **Live Server** no VS Code.
 
 ---
 
-Desenvolvido por
+## 🛣️ Roadmap
+
+- [x] Hero
+- [x] About
+- [x] Projects
+- [x] Skills
+- [x] Contact
+- [x] Footer
+- [x] Responsividade
+- [x] Scroll Reveal
+- [x] SEO
+- [x] Favicon
+- [ ] Deploy
+- [ ] Melhorias futuras
+
+---
+
+## 👨‍💻 Autor
 
 **Arom Vinicius Hano Barsallo**
+
+GitHub:
+https://github.com/AromHanoB
+
+LinkedIn:
+(adicionar)
+
+---
+
+## 📄 Licença
+
+Este projeto foi desenvolvido para fins de estudo e composição de portfólio.
