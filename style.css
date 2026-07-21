@@ -740,3 +740,57 @@ body::after {
 
   transform: translateY(0);
 }
+
+  .project-image{
+
+    width:100%;
+
+    aspect-ratio:16 / 9;
+
+    object-fit:cover;
+
+    border-radius:12px;
+
+    display:block;
+
+    transition:.3s;
+
+}
+
+.project-card:hover .project-image{
+
+    transform:scale(1.03);
+
+}
+
+.about-image{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.about-image img{
+
+    width:100%;
+
+    max-width:380px;
+
+    height:500px;
+
+    object-fit:cover;
+
+    object-position:center top;
+
+    border-radius:20px;
+
+}
+
+.about-image img:hover{
+
+    transform:translateY(-6px);
+
+}
