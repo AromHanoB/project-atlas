@@ -370,3 +370,103 @@
     z-index:-1;
 
 }
+
+.skill-card{
+
+    padding:36px;
+
+    background:rgba(255,255,255,.03);
+
+    border:1px solid var(--border);
+
+    border-radius:var(--radius-xl);
+
+    transition:var(--transition-normal);
+
+}
+
+.skill-card:hover{
+
+    transform:translateY(-10px);
+
+    border-color:var(--primary);
+
+    box-shadow:
+
+        0 18px 40px rgba(0,0,0,.30);
+
+}
+
+.skill-icon{
+
+    width:64px;
+
+    height:64px;
+
+    border-radius:18px;
+
+    display:grid;
+
+    place-items:center;
+
+    font-size:2rem;
+
+    margin-bottom:24px;
+
+    background:rgba(79,124,255,.08);
+
+    color:var(--primary);
+
+}
+
+.skill-card h3{
+
+    font-size:1.6rem;
+
+    margin-bottom:12px;
+
+}
+
+.skill-card p{
+
+    color:var(--text-secondary);
+
+    line-height:1.8;
+
+    margin-bottom:28px;
+
+}
+
+.skill-tags{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:12px;
+
+}
+
+.skill-tags span{
+
+    padding:10px 18px;
+
+    border-radius:999px;
+
+    background:rgba(79,124,255,.08);
+
+    color:var(--primary);
+
+    font-weight:600;
+
+    font-size:.9rem;
+
+}
+
+.skill-card:hover .skill-icon{
+    transform: rotate(-8deg) scale(1.05);
+}
+
+.skill-icon{
+    transition: var(--transition-normal);
+}
