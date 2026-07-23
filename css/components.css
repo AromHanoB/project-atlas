@@ -22,12 +22,12 @@
   user-select: none;
 }
 
-.btn-primary {
-  background: var(--primary);
+.btn-primary{
 
-  color: white;
+    position:relative;
 
-  box-shadow: 0 10px 30px rgba(79, 124, 255, 0.3);
+    overflow:hidden;
+
 }
 
 .btn-primary:hover {
@@ -70,6 +70,33 @@
 
 .btn:active {
   transform: scale(0.97);
+}
+
+.btn-primary::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background:linear-gradient(
+        90deg,
+        transparent,
+        rgba(255,255,255,.18),
+        transparent
+    );
+
+    transform:translateX(-150%);
+
+}
+
+.btn-primary:hover::before{
+
+    transform:translateX(150%);
+
+    transition:.7s;
+
 }
 
 /* ======================================================
@@ -469,4 +496,146 @@
 
 .skill-icon{
     transition: var(--transition-normal);
+}
+
+.header{
+
+    position:fixed;
+
+    top:0;
+
+    left:0;
+
+    width:100%;
+
+    z-index:1000;
+
+    backdrop-filter:blur(18px);
+
+    background:rgba(8,8,12,.55);
+
+    border-bottom:1px solid rgba(255,255,255,.05);
+
+    transition:var(--transition-normal);
+
+}
+
+.header-content{
+
+    height:80px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+.logo{
+
+    font-size:1.3rem;
+
+    font-weight:700;
+
+    letter-spacing:.5px;
+
+    color:var(--text-primary);
+
+    transition:var(--transition-normal);
+
+}
+
+.logo:hover{
+
+    color:var(--primary);
+
+}
+
+.nav-menu{
+
+    display:flex;
+
+    gap:36px;
+
+    list-style:none;
+
+}
+
+.nav-menu a{
+
+    position:relative;
+
+    color:var(--text-secondary);
+
+    transition:var(--transition-fast);
+
+}
+
+.nav-menu a:hover{
+
+    color:var(--text-primary);
+
+}
+
+.nav-menu a::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    bottom:-8px;
+
+    width:0;
+
+    height:2px;
+
+    background:var(--primary);
+
+    transition:.3s;
+
+}
+
+.nav-menu a:hover::after{
+
+    width:100%;
+
+}
+
+.footer{
+
+    border-top:1px solid rgba(255,255,255,.05);
+
+    background:rgba(255,255,255,.02);
+
+}
+
+.footer-links{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:28px;
+
+    margin:30px 0;
+
+}
+
+.footer-links a{
+
+    color:var(--text-secondary);
+
+    transition:.3s;
+
+}
+
+.footer-links a:hover{
+
+    color:var(--primary);
+
+    transform:translateY(-3px);
+
 }
