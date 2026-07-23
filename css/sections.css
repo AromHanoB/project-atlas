@@ -248,10 +248,22 @@
   pointer-events: none;
 }
 
-.about {
+.about-content {
+  display: grid;
+
+  grid-template-columns: 1.2fr 0.8fr;
+
+  gap: 80px;
+
+  align-items: start;
 }
 
-.projects {
+.projects-grid {
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+
+  gap: 32px;
 }
 
 .skills {
@@ -261,4 +273,20 @@
 }
 
 .footer {
+}
+
+@media (max-width: 900px) {
+  .about-content {
+    grid-template-columns: 1fr;
+
+    gap: 48px;
+  }
+
+  .about-image {
+    order: -1;
+  }
+
+  .about-image img {
+    max-width: 320px;
+  }
 }
