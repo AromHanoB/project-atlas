@@ -58,65 +58,91 @@
 
     <main>
       <section class="hero">
-        <div class="container">
-          <p class="hero-tag">Full Stack Developer</p>
+        <div class="container hero-content">
+          <div class="hero-left">
+            <div class="hero-badge">
+              <span class="hero-status"></span>
 
-          <h1>Arom Vinicius Hano Barsallo</h1>
+              <p>Disponível para oportunidades</p>
+            </div>
 
-          <p class="hero-description">
-            Desenvolvedor Full Stack em formação, criando aplicações modernas, interfaces intuitivas
-            e soluções focadas em desempenho e experiência do usuário.
-          </p>
+            <h1 class="hero-title">
+              FULL STACK
 
-          <div class="hero-tech">
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-            <span>Git</span>
-            <span>GitHub</span>
+              <span>DEVELOPER</span>
+            </h1>
+
+            <h2 class="hero-name">Arom Vinicius Hano Barsallo</h2>
+
+            <p class="hero-description">
+              Desenvolvedor Full Stack focado em criar aplicações modernas, performáticas e
+              intuitivas.
+            </p>
+
+            <div class="hero-buttons">
+              <a href="#projects" class="btn btn-primary"> Ver Projetos </a>
+
+              <a href="./assets/cv/curriculo.pdf" class="btn btn-secondary"> Download CV </a>
+            </div>
+
+            <div class="hero-stack">
+              <span>HTML</span>
+
+              <span>CSS</span>
+
+              <span>JavaScript</span>
+
+              <span>React</span>
+
+              <span>Node.js</span>
+            </div>
           </div>
 
-          <a href="#projects" class="btn btn-primary"> Ver Projetos </a>
+          <div class="hero-right">
+            <div class="hero-image">
+              <img src="./assets/images/profile/arom.webp" alt="Arom Vinicius Hano Barsallo" />
+            </div>
+          </div>
         </div>
       </section>
       <section class="about reveal" id="about">
         <div class="container">
           <div class="about-content">
             <div class="about-text">
-              <p class="section-tag">Sobre mim</p>
+              <div class="section-header">
+                <p class="section-tag">Sobre</p>
 
-              <h2>Desenvolvedor apaixonado por criar soluções.</h2>
+                <h2 class="section-title">Desenvolvedor apaixonado por criar soluções.</h2>
 
-              <p>
-                Atualmente estudo desenvolvimento Full Stack com foco em HTML, CSS, JavaScript,
-                Node.js e boas práticas de engenharia de software.
-              </p>
+                <p class="section-description">
+                  Atualmente estudo desenvolvimento Full Stack com foco em HTML, CSS, JavaScript,
+                  Node.js e boas práticas de engenharia de software.
+                </p>
+              </div>
 
-              <p>
+              <p class="about-story">
                 O Project Atlas representa minha evolução profissional, documentando cada etapa da
                 minha jornada como desenvolvedor.
               </p>
             </div>
-
             <div class="about-image">
-              <img
-                src="./assets/images/profile/arom.webp"
-                alt="Foto de Arom Vinicius Hano Barsallo"
-              />
+              <img src="./assets/images/profile/arom.webp" alt="Arom Vinicius Hano Barsallo" />
             </div>
           </div>
         </div>
       </section>
+
       <section class="projects reveal" id="projects">
         <div class="container">
-          <p class="section-tag">Projetos</p>
+          <div class="section-header">
+            <p class="section-tag">Projetos</p>
 
-          <h2>Alguns projetos desenvolvidos durante minha jornada.</h2>
+            <h2 class="section-title">Alguns projetos desenvolvidos durante minha jornada.</h2>
 
-          <p class="projects-description">
-            Cada projeto representa uma etapa da minha evolução como desenvolvedor, aplicando
-            conceitos modernos de desenvolvimento web.
-          </p>
+            <p class="section-description">
+              Cada projeto representa uma etapa da minha evolução como desenvolvedor.
+            </p>
+          </div>
 
           <div class="projects-grid">
             <article class="project-card">
@@ -141,8 +167,14 @@
                 </div>
 
                 <div class="project-links">
-                  <a href="#">GitHub</a>
-                  <a href="#">Demo</a>
+                  <a href="https://github.com/AromHanoB">GitHub</a>
+                  <a
+                    href="https://arom-hano-portfolio.vercel.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Demo
+                  </a>
                 </div>
               </div>
             </article>
@@ -169,7 +201,7 @@
                 </div>
 
                 <div class="project-links">
-                  <a href="#">GitHub</a>
+                  <a href="https://github.com/AromHanoB">GitHub</a>
                   <a href="#">Demo</a>
                 </div>
               </div>
@@ -177,18 +209,21 @@
           </div>
         </div>
       </section>
+
       <section class="skills reveal" id="skills">
         <div class="container">
-          <p class="section-tag">Tecnologias</p>
+          <div class="section-header">
+            <p class="section-tag">Tecnologias</p>
 
-          <h2>Tecnologias que utilizo.</h2>
+            <h2 class="section-title">Tecnologias que utilizo.</h2>
 
-          <p class="skills-description">
-            Ferramentas e tecnologias que fazem parte da minha rotina de estudos e desenvolvimento.
-          </p>
+            <p class="section-description">
+              Ferramentas e tecnologias que fazem parte da minha rotina.
+            </p>
+          </div>
 
           <div class="skills-grid">
-            <div class="skill-card">
+            <article class="skill-card">
               <h3>Front-end</h3>
 
               <ul>
@@ -198,9 +233,9 @@
                 <li>React</li>
                 <li>Next.js</li>
               </ul>
-            </div>
+            </article>
 
-            <div class="skill-card">
+            <article class="skill-card">
               <h3>Back-end</h3>
 
               <ul>
@@ -210,9 +245,9 @@
                 <li>PostgreSQL</li>
                 <li>MongoDB</li>
               </ul>
-            </div>
+            </article>
 
-            <div class="skill-card">
+            <article class="skill-card">
               <h3>Ferramentas</h3>
 
               <ul>
@@ -222,28 +257,49 @@
                 <li>Figma</li>
                 <li>Linux</li>
               </ul>
-            </div>
+            </article>
           </div>
         </div>
       </section>
+
       <section class="contact reveal" id="contact">
         <div class="container">
           <div class="contact-box">
-            <p class="section-tag">Contato</p>
+            <div class="section-header">
+              <p class="section-tag">Contato</p>
 
-            <h2>Vamos construir algo juntos?</h2>
+              <h2 class="section-title">Vamos construir algo juntos?</h2>
 
-            <p class="contact-description">
-              Estou disponível para oportunidades de estágio, trabalho como desenvolvedor e projetos
-              freelance.
-            </p>
-
+              <p class="section-description">
+                Estou disponível para oportunidades de estágio, trabalho como desenvolvedor e
+                projetos freelance.
+              </p>
+            </div>
             <div class="contact-buttons">
-              <a href="https://github.com/seuusuario" class=" btn btn-outline"> GitHub </a>
+              <a
+                href="https://github.com/AromHanoB"
+                class="btn btn-outline"
+                rel="noopener noreferrer"
+              >
+                GitHub
+              </a>
 
-              <a href="https://www.linkedin.com/in/arom-hano/" target="_blank" class="btn btn-outline"> LinkedIn </a>
+              <a
+                href="https://www.linkedin.com/in/arom-hano/"
+                target="_blank"
+                class="btn btn-outline"
+                rel="noopener noreferrer"
+              >
+                LinkedIn
+              </a>
 
-              <a href="./assets/cv/curriculo.pdf" class="btn btn-secondary"> Download CV</a>
+              <a
+                href="./assets/cv/curriculo.pdf"
+                class="btn btn-secondary"
+                rel="noopener noreferrer"
+              >
+                Download CV</a
+              >
             </div>
 
             <p class="contact-email">aromvhb@gmail.com</p>
@@ -254,21 +310,23 @@
 
     <footer class="footer reveal">
       <div class="container">
-        <h2>Project Atlas</h2>
+        <p class="footer-logo">Project Atlas</p>
 
         <p>Construindo uma carreira, um commit de cada vez.</p>
 
         <div class="footer-links">
-          <a href="https://github.com/AromHanoB" target="_blank"> GitHub </a>
+          <a href="https://github.com/AromHanoB" target="_blank" rel="noopener noreferrer">
+            GitHub
+          </a>
 
-          <a href="https://www.linkedin.com/in/arom-hano/"> LinkedIn </a>
+          <a href="https://www.linkedin.com/in/arom-hano/" rel="noopener noreferrer"> LinkedIn </a>
 
-          <a href="mailto:aromvhb@gmail.com"> Email </a>
+          <a href="mailto:aromvhb@gmail.com" rel="noopener noreferrer"> Email </a>
         </div>
 
         <span> © 2026 Arom Vinicius Hano Barsallo </span>
       </div>
     </footer>
   </body>
-  <script src="script.js"></script>
+  <script src="./script.js"></script>
 </html>
