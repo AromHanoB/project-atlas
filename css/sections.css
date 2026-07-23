@@ -276,12 +276,6 @@
 
 }
 
-.contact {
-}
-
-.footer {
-}
-
 @media (max-width: 900px) {
   .about-content {
     grid-template-columns: 1fr;
