@@ -64,10 +64,30 @@ ul{
 
 }
 
-::selection{
+::selection {
+    background: var(--primary);
+    color: #ffffff;
+}
 
-    background:var(--primary);
+::-moz-selection {
+    background: var(--primary);
+    color: #ffffff;
+}
 
-    color:white;
+::-webkit-scrollbar {
+    width: 10px;
+}
 
+::-webkit-scrollbar-track {
+    background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary);
+    border-radius: 999px;
+    border: 2px solid var(--background);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #6d93ff;
 }

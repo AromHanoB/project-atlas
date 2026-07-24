@@ -1,13 +1,9 @@
-.container{
+.container {
+  width: min(1200px, 90%);
 
-    width:min(1200px,90%);
-
-    margin-inline:auto;
-
+  margin-inline: auto;
 }
 
-.section{
-
-    padding-block:var(--space-10);
-
+.section {
+  padding-block: var(--space-10);
 }
