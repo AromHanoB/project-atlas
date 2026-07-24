@@ -593,9 +593,22 @@
 .skills-grid {
   display: grid;
 
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 
   gap: 32px;
+}
+
+/* ======================================================
+   SKILLS RESPONSIVO
+====================================================== */
+
+@media (max-width: 768px) {
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
 }
 
 /* ======================================================
@@ -603,7 +616,7 @@
 ====================================================== */
 
 .contact {
-  padding: 160px 0;
+  padding: 100px 0;
 
   position: relative;
 }
@@ -631,3 +644,22 @@
 
   z-index: -1;
 }
+
+/* ======================================================
+   CONTACT RESPONSIVO
+====================================================== */
+
+@media (max-width: 768px) {
+
+  .contact {
+    padding: 100px 0;
+  }
+
+  .contact::before {
+    width: 400px;
+    height: 400px;
+
+    top: -180px;
+  }
+
+} 

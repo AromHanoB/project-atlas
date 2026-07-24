@@ -369,7 +369,37 @@
 /* ======================================================
    SKILL CARD RESPONSIVO
 ====================================================== */
+@media (max-width: 768px) {
 
+  .skill-card {
+    padding: 28px;
+  }
+
+  .skill-icon {
+    width: 56px;
+    height: 56px;
+    margin-bottom: 20px;
+    font-size: 1.75rem;
+  }
+
+  .skill-card h3 {
+    font-size: 1.4rem;
+  }
+
+  .skill-card p {
+    margin-bottom: 24px;
+  }
+
+  .skill-tags {
+    gap: 10px;
+  }
+
+  .skill-tags span {
+    padding: 8px 14px;
+    font-size: 0.85rem;
+  }
+
+}
 /* ======================================================
    CONTACT CARD
 ====================================================== */
@@ -459,6 +489,40 @@
    CONTACT CARD RESPONSIVO
 ====================================================== */
 
+@media (max-width: 768px) {
+
+  .contact-card {
+    padding: 48px 24px;
+    border-radius: 24px;
+  }
+
+  .contact-buttons {
+    flex-direction: column;
+    width: 100%;
+    gap: 16px;
+    margin: 36px 0;
+  }
+
+  .contact-buttons .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .contact-email {
+    width: 100%;
+    padding: 14px 20px;
+
+    text-align: center;
+
+    word-break: break-word;
+  }
+
+  .contact-card .section-title {
+    margin-bottom: 24px;
+  }
+
+}
+
 /* ======================================================
    NAVBAR
 ====================================================== */
@@ -481,6 +545,9 @@
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 
   transition: var(--transition-normal);
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header-content {
